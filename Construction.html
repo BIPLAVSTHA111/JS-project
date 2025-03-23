@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="Construction.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="Construction.js"></script>
+    
+  </head>
+  <body>
+    <div>
+      <img src="pictures/daniel-chen-cNaEqXSsZ0k-unsplash.jpg" alt="" />
+      <div class="container first">
+        <header style="padding-top: 30px">
+          <nav>
+            <div id="nav_first">
+              <img
+                src="pictures/image.png"
+                alt=""
+                style="mix-blend-mode: multiply"
+              />
+              <div>
+                <div onclick="opensignin()">LOG IN</div>
+                <div onclick="opensignup()">SIGN UP</div>
+                <div>
+                  <input
+                    type="text"
+                    placeholder="SEARCH"
+                    style="background: rgb(0, 0, 0, 0.2)"
+                  /><i
+                    class="fa-solid fa-magnifying-glass"
+                    style="margin-right: -2%"
+                  ></i>
+                </div>
+              </div>
+            </div>
+            <div id="nav_second">
+              <div style="display: flex">
+                <div><a href="#expertise">OUR EXPERTISE</a></div>
+                <div>+</div>
+              </div>
+              <div style="display: flex">
+                <div><a href="#about_us">ABOUT US</a></div>
+                <div>+</div>
+              </div>
+              <div style="display: flex">
+                <div><a href="#project">PROJECTS</a></a></div>
+                <div>+</div>
+              </div>
+              <div style="display: flex">
+                <div><a href="#history">HISTORY</a></div>
+                <div>+</div>
+              </div>
+              <div style="display: flex">
+                <div> <a href="#contact">CONTACT</a></div>
+                <div>+</div>
+              </div>
+            </div>
+          </nav>
+        </header>
+        <main>
+          <div>
+            <div style="color: rgb(199, 190, 190)">
+              GLOBAL EXPERTISE, <br />LOCAL COMMITMENT
+            </div>
+            <br /><br />
+            <div style="color: rgb(199, 190, 190)">
+              LAYING THE GOUNDWORK FOR A SUSTAINABLE FUTURE
+            </div>
+            <br /><br />
+            <button id="learn_btn">
+              LEARN MORE
+              <i
+                class="fa-solid fa-circle-arrow-right"
+                style="font-size: 30px"
+              ></i>
+            </button>
+          </div>
+          <div>
+            <iframe
+              src="https://cdn.pixabay.com/video/2020/10/19/52886-471089084_large.mp4"
+              frameborder="0"
+            ></iframe>
+          </div>
+        </main>
+      </div>
+      <div class="signup">
+        <form name="myForm">
+          <i
+            class="fa-solid fa-xmark"
+            onclick="cross()"
+            style="display: flex; justify-content: end; cursor: pointer"
+          ></i>
+          <label for="fullname">Full Name</label>
+          <input type="text" name="" id="fullname" />
+          <label for="User">User Name</label>
+          <input type="text" id="User" name="" />
+          <label for="Email">Email</label>
+          <input type="email" name="" id="Email" />
+          <label for="Date">Birth of date</label>
+          <input type="date" name="" id="Date" />
+          <label for="password">New Password</label>
+          <input type="password" placeholder="new password" id="password" />
+          <label for="C-password">Confirm password</label>
+          <input
+            type="password"
+            placeholder="confirm password"
+            id="C-password"
+          />
+          <label for="number">Phone no.</label>
+          <input type="number" id="number" />
+          <label for="address">Address</label>
+          <input type="text" id="address" /><br />
+          <input type="submit" value="submit" />
+        </form>
+      </div>
+
+      <div class="User_signin" >
+        <form >
+          <i
+          class="fa-solid fa-xmark"
+          onclick="remove()"
+          style="display: flex; justify-content: end; cursor: pointer"
+        ></i>
+          <label for="user_name">USER NAME</label>
+          <input type="text" placeholder="USER NAME" id="user_name" />
+          <label for="user_pw">PASSWORD</label>
+            <input type="password" placeholder="PASSWORD" id="user_pw"><br>
+            <input type="submit" value="SIGN IN" />
+        </form>
+    </div>
+      
+    </div>
+    <div id="expertise" class="container third">
+      <div>EXPERTISE</div>
+      <div>
+        <div style="color: red; width: 50%; font-weight: bolder">
+          INTEGRATED SOLUTIONS
+        </div>
+        <div
+          style="
+            width: 35%;
+            line-height: 35px;
+            text-align: justify;
+            font-size: 20px;
+          "
+        >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto dolorum
+          inventore dicta in ratione, iste suscipit fugit necessitatibus alias
+          accusantium beatae incidunt nam saepe quas deleniti molestiae?
+          Numquam, ipsum maxime.
+        </div>
+      </div>
+      <div>
+        <div>
+          <iframe
+            src="https://cdn.pixabay.com/video/2024/02/20/201281-915375202_large.mp4"
+            frameborder="0"
+          ></iframe>
+        </div>
+        <div id="sml_box-2">
+          <div>CONCESSION</div>
+          <div>
+            <div style="font-size: xx-large">ENGINEERING & CONSTRUCTION</div>
+            <div style="margin-top: 40px">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+              dolorum inventore
+            </div>
+            <button id="">
+              BROWSE PROJECT
+              <i
+                class="fa-solid fa-circle-arrow-right"
+                style="font-size: 30px"
+              ></i>
+            </button>
+          </div>
+          <div>
+            <div>CONSULTATOIN</div>
+            <div>PROPERTY & HOSPITALITY</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="about_us" class="container second" style="background-color: rgb(193, 193, 193)">
+      <div>ABOUT THE COMPANY</div>
+      <div>
+        <div>
+          <div>More than 2.34 trillion in total investment</div>
+          <div>2,340 <span style="font-size: 65px">+</span></div>
+        </div>
+        <div>
+          We prepare land for the development, providing solution for
+          geotechnical challenges across various sectors. We have adequate human
+          resource expertise, experience and finanacial stability to respond
+          quickly and complete projects safely and successfully.
+        </div>
+      </div>
+      <div>
+        <div style="border-left: 2px solid rgba(0, 0, 0, 0.22)">
+          <div id="sml_box">1,200 technicians and experts</div>
+          <div id="sml_box-1">
+            1,200<span style="font-size: 20px">/ ENGINEERS</span>
+          </div>
+        </div>
+        <div style="border-left: 2px solid rgba(0, 0, 0, 0.22)">
+          <div id="sml_box">We operate in 40 countries</div>
+          <div id="sml_box-1">
+            40<span style="font-size: 20px"> / COUNTRIES</span>
+          </div>
+        </div>
+        <div style="border-left: 2px solid rgba(0, 0, 0, 0.22)">
+          <div id="sml_box">Over 100 projects in 2024</div>
+          <div id="sml_box-1">
+            100<span style="font-size: 20px"> / +PROJECT</span>
+          </div>
+        </div>
+      </div>
+      <div style="padding-top: 5px">
+        <button id="learn_btn-Edit">
+          LEARN MORE
+          <i class="fa-solid fa-circle-arrow-right" style="font-size: 30px"></i>
+        </button>
+      </div>
+    </div>
+
+    <div id="project" class="container forth">
+      <div>PROJECTS</div>
+      <div>LATEST WORKS DONE</div>
+      <div class="card-container">
+        <div id="card">
+          <div
+            id="front_face"
+            style="background-image: url(pictures/card1.jpg)"
+          >
+            <div>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus
+              quidem expedita fuga illum consequuntur! Temporibus facere
+              accusamus repudiandae quisquam sint.
+            </div>
+            <button>
+              <i class="fa-solid fa-circle-arrow-right"></i>VIEW FULL PROJECT
+            </button>
+          </div>
+          <div id="back_face">
+            <div id="sml_face">
+              <img src="pictures/card1.jpg" alt="" />
+            </div>
+            <div>
+              <h3>SMALL BUILDING</h3>
+              <h5 style="color: grey">Lalitpur</h5>
+            </div>
+          </div>
+        </div>
+        <div id="card">
+          <div
+            id="front_face"
+            style="
+              background-image: url(pictures/card2.jpg);
+              background-blend-mode: hue;
+            "
+          >
+            <div>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus
+              quidem expedita fuga illum consequuntur! Temporibus facere
+              accusamus repudiandae quisquam sint.
+            </div>
+            <button>
+              <i class="fa-solid fa-circle-arrow-right"></i>VIEW FULL PROJECT
+            </button>
+          </div>
+          <div id="back_face">
+            <div id="sml_face"><img src="pictures/card2.jpg" alt="" /></div>
+            <div>
+              <h3>BIG BUILDING</h3>
+              <h5 style="color: grey">Pokhara</h5>
+            </div>
+          </div>
+        </div>
+        <div id="card">
+          <div
+            id="front_face"
+            style="background-image: url(pictures/card3.jpg)"
+          >
+            <div>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus
+              quidem expedita fuga illum consequuntur! Temporibus facere
+              accusamus repudiandae quisquam sint.
+            </div>
+            <button>
+              <i class="fa-solid fa-circle-arrow-right"></i>VIEW FULL PROJECT
+            </button>
+          </div>
+          <div id="back_face">
+            <div id="sml_face"><img src="pictures/card3.jpg" alt="" /></div>
+            <div>
+              <h3>APARTMENT</h3>
+              <h5 style="color: grey">kathmandu</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button>
+        LEARN MORE
+        <i class="fa-solid fa-circle-arrow-right" style="font-size: 30px"></i>
+      </button>
+    </div>
+    <div id="history" class="container fifth">
+      <div style="color: white">HISTORY</div>
+      <div>
+        <div id="about1"><img src="pictures/about1.jpg" alt="" /></div>
+        <div
+          style="
+            width: 35%;
+            line-height: 35px;
+            text-align: justify;
+            font-size: 20px;
+            color: white;
+          "
+        >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, iusto
+          facilis doloribus soluta praesentium. Lorem ipsum dolor sit, amet
+          consectetur adipisicing elit. Id nemo inventore perspiciatis ipsum
+          eveniet exercitationem accusamus, fugiat debitis minus sunt explicabo
+          consectetur obcaecati voluptatibus harum aut earum. Itaque, cumque
+          quidem.
+          <p style="color: red; font-weight: 100">
+            maxime ex modi quibusdam adipisci aut reprehenderit, recusandae
+            molestias quas ullam dicta sed ipsam. Sint, quo.fugiat debitis minus
+            sunt explicabo consectetur obcaecati voluptatibus harum aut earum.
+            Itaque, cumque quidem.
+          </p>
+        </div>
+        <div>
+          <div id="about2"><img src="pictures/about2.jpg" alt="" /></div>
+          <div style="margin-top: 160px; font-size: 65px; color: white">
+            1970
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="contact" class="container sixth">
+      <div>CONTACTS</div>
+      <div>FEEL FREE TO GET IN TOUCH WITH US</div>
+      <div id="footer1">
+        <div><img src="pictures/image.png" alt="" /></div>
+        <div>
+          REGISTER OFFICE
+          <p>009096876</p>
+          <p>kathmandu-897098</p>
+          <p>hi.abc@aaa.com</p>
+        </div>
+        <div id="footer2">
+          <div>COMPANY</div>
+          <ul>
+            <li>OUR EXPERTISE</li>
+            <li>ABOUT US</li>
+            <li>PROJECT</li>
+            <li>HISTORY</li>
+          </ul>
+        </div>
+        <div id="footer3">
+          <div>Download our latest project</div>
+          <button>
+            DOWNLOAD REPORT
+            <i class="fa-solid fa-circle-down" style="font-size: 30px"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

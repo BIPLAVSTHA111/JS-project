@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .User_signin {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    background-color: #eaeaea6b;
+    display: flex;
+   }
+   .User_signin form{
+    flex-direction: column;
+    display: flex;
+    border: 1px solid black;
+    padding: 35px 25px;
+    line-height: 40px;
+    border-radius: 15px;
+   }
+   
+
+  </style>
+  <body>
+    <div class="User_signin">
+    <form>
+      <legend for="USER NAME">USER NAME</legend>
+      <input type="text" placeholder="USER NAME" />
+      <legend for="PASSWORD">PASSWORD</legend>
+        <input type="password" placeholder="PASSWORD" /><br>
+        <input type="submit" value="SIGN IN" />
+    </form>
+</div>
+  </body>
+</html>
